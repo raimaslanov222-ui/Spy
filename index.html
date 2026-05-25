@@ -1,0 +1,350 @@
+```html
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Шпион: Лучшая версия</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Inter:wght@400;600&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0f172a;
+            color: #ffffff;
+            overflow-x: hidden;
+            touch-action: manipulation;
+        }
+
+        h1, h2 { font-family: 'Montserrat', sans-serif; }
+
+        .card-container {
+            perspective: 1000px;
+            width: 280px;
+            height: 400px;
+        }
+
+        .card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+            transform-style: preserve-3d;
+        }
+
+        .card-inner.is-flipped {
+            transform: rotateY(180deg);
+        }
+
+        .card-face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border-radius: 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.8);
+        }
+
+        .card-front {
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            border: 4px solid #3b82f6;
+        }
+
+        .card-back {
+            background: #ffffff;
+            color: #1a1a2e;
+            transform: rotateY(180deg);
+        }
+
+        #role-value {
+            word-wrap: break-word;
+            text-align: center;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+
+        .category-btn {
+            transition: all 0.2s;
+            border: 2px solid #334155;
+            background: #1e293b;
+        }
+
+        .category-btn.active {
+            border-color: #3b82f6;
+            background-color: rgba(59, 130, 246, 0.2);
+            transform: scale(1.05);
+        }
+
+        .custom-range::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 24px;
+            height: 24px;
+            background: #3b82f6;
+            cursor: pointer;
+            border-radius: 50%;
+            border: 2px solid white;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col items-center justify-start p-4">
+
+    <!-- SETUP SCREEN -->
+    <div id="setup-screen" class="w-full max-w-md space-y-6">
+        <div class="text-center py-4">
+            <h1 class="text-4xl font-black text-white italic tracking-tighter">ШПИОН</h1>
+            <p class="text-blue-500 font-bold text-[10px] tracking-widest mt-1 uppercase">Выберите категорию</p>
+        </div>
+
+        <div class="grid grid-cols-2 gap-2">
+            <button onclick="selectCategory('things', this)" class="category-btn active p-3 rounded-xl flex items-center gap-3">
+                <span class="text-2xl">🎒</span>
+                <span class="text-[11px] font-bold uppercase">Предметы</span>
+            </button>
+            <button onclick="selectCategory('brands', this)" class="category-btn p-3 rounded-xl flex items-center gap-3">
+                <span class="text-2xl">🏢</span>
+                <span class="text-[11px] font-bold uppercase">Компании</span>
+            </button>
+            <button onclick="selectCategory('brawl', this)" class="category-btn p-3 rounded-xl flex items-center gap-3">
+                <span class="text-2xl">🌵</span>
+                <span class="text-[11px] font-bold uppercase">Brawl</span>
+            </button>
+            <button onclick="selectCategory('cars', this)" class="category-btn p-3 rounded-xl flex items-center gap-3">
+                <span class="text-2xl">🏎️</span>
+                <span class="text-[11px] font-bold uppercase">Авто</span>
+            </button>
+            <button onclick="selectCategory('home', this)" class="category-btn p-3 rounded-xl flex items-center gap-3">
+                <span class="text-2xl">🏠</span>
+                <span class="text-[11px] font-bold uppercase">Дом</span>
+            </button>
+        </div>
+
+        <div class="bg-slate-800/80 p-6 rounded-3xl space-y-6 border border-slate-700 shadow-xl">
+            <div>
+                <div class="flex justify-between mb-2">
+                    <span class="font-bold text-sm text-slate-300">Игроков:</span>
+                    <span id="p-count-val" class="text-blue-400 font-black">3</span>
+                </div>
+                <input type="range" id="p-count" min="3" max="15" value="3" class="w-full h-2 bg-slate-700 rounded-lg appearance-none custom-range">
+            </div>
+
+            <div>
+                <div class="flex justify-between mb-2">
+                    <span class="font-bold text-sm text-slate-300">Шпионов:</span>
+                    <span id="s-count-val" class="text-red-400 font-black">1</span>
+                </div>
+                <input type="range" id="s-count" min="1" max="3" value="1" class="w-full h-2 bg-slate-700 rounded-lg appearance-none custom-range">
+            </div>
+
+            <button onclick="initGame()" class="w-full bg-blue-600 hover:bg-blue-500 py-4 rounded-2xl font-black text-lg transition-all shadow-lg uppercase tracking-wider">
+                Начать игру
+            </button>
+        </div>
+    </div>
+
+    <!-- REVEAL SCREEN -->
+    <div id="reveal-screen" class="hidden w-full flex flex-col items-center mt-6">
+        <div class="text-center mb-6">
+            <h2 class="text-xl font-black italic text-slate-400 uppercase">Игрок #<span id="current-player" class="text-white">1</span></h2>
+            <p id="hint-text" class="text-blue-400 font-bold text-[10px] uppercase mt-1 animate-pulse">Нажми на карту</p>
+        </div>
+
+        <div class="card-container" onclick="toggleCard()">
+            <div id="card-inner" class="card-inner">
+                <div class="card-face card-front">
+                    <div class="text-7xl mb-4">🕵️</div>
+                    <p class="font-black text-sm tracking-widest text-blue-400 uppercase">Посмотри роль</p>
+                </div>
+                <div class="card-face card-back">
+                    <p id="role-label" class="text-slate-400 uppercase font-bold text-[10px] mb-3">Твое секретное слово:</p>
+                    <h3 id="role-value" class="text-2xl font-black px-2">---</h3>
+                    <div id="category-badge" class="mt-8 px-3 py-1 bg-slate-200 rounded-full text-[9px] font-bold uppercase text-slate-600">КАТЕГОРИЯ</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- GAME BOARD -->
+    <div id="game-screen" class="hidden w-full max-w-sm text-center mt-10">
+        <h2 class="text-3xl font-black mb-6 uppercase italic">Кто шпион?</h2>
+        
+        <div class="bg-blue-900/20 p-6 rounded-3xl border border-blue-500/20 mb-6">
+            <p class="text-slate-400 text-sm mb-1">Все узнали роли.</p>
+            <p class="text-blue-400 font-bold uppercase text-xs">Обсуждайте и ищите лишнего</p>
+        </div>
+
+        <button id="reveal-spy-btn" onclick="showResults()" class="w-full bg-slate-800 hover:bg-slate-700 border border-slate-600 py-4 rounded-2xl font-bold text-xs uppercase tracking-widest mb-4">
+            Показать ответ
+        </button>
+
+        <div id="results-area" class="hidden space-y-4 text-left">
+            <div class="bg-slate-900 p-5 rounded-3xl border border-blue-500/50">
+                <p class="text-slate-500 text-[9px] uppercase font-bold mb-1">Загаданное слово:</p>
+                <p id="final-word" class="text-xl font-black text-blue-400 mb-4 uppercase"></p>
+                <p class="text-slate-500 text-[9px] uppercase font-bold mb-2">Шпионы:</p>
+                <div id="spy-list" class="flex flex-wrap gap-2"></div>
+            </div>
+        </div>
+
+        <button onclick="location.reload()" class="mt-8 text-slate-500 text-[10px] font-bold underline uppercase tracking-widest">В главное меню</button>
+    </div>
+
+    <script>
+        const CATEGORIES = {
+            things: {
+                name: "Обычные вещи",
+                words: ["Рюкзак", "Наушники", "Бутылка воды", "Кошелек", "Ключи", "Зонт", "Кроссовки", "Ноутбук", "Телефон", "Наручные часы", "Очки", "Книга", "Ручка", "Зажигалка", "Фонарик", "Пауэрбанк", "Кепка", "Чехол", "Ножницы", "Расческа"]
+            },
+            brands: {
+                name: "Компании",
+                words: ["Apple", "Google", "Microsoft", "Samsung", "Nike", "Adidas", "McDonald's", "Coca-Cola", "Pepsi", "Disney", "Netflix", "Amazon", "Tesla", "Яндекс", "Сбербанк", "ВКонтакте", "Telegram", "YouTube", "Zara", "Gucci", "Lego", "Sony"]
+            },
+            brawl: {
+                name: "Brawl Stars",
+                words: ["Шелли", "Кольт", "Леон", "Ворон", "Спайк", "Эль Примо", "Поко", "Мортис", "Эдгар", "Тара", "Джин", "Фрэнк", "Биби", "Амбер", "Динамайк", "Тик", "Пайпер", "Рико"]
+            },
+            cars: {
+                name: "Машины",
+                words: ["Мерседес", "БМВ", "Ауди", "Тойота", "Лексус", "Порше", "Феррари", "Ламборгини", "Тесла", "Ниссан", "Мазда", "Форд", "Шевроле", "Хендай", "Киа", "Ягуар", "Бентли"]
+            },
+            home: {
+                name: "Предметы дома",
+                words: ["Холодильник", "Микроволновка", "Телевизор", "Стиральная машина", "Диван", "Зеркало", "Шкаф", "Пылесос", "Чайник", "Подушка", "Ковер", "Шторы", "Ванна", "Лампа", "Плита", "Утюг"]
+            }
+        };
+
+        let state = {
+            category: 'things',
+            players: 3,
+            spies: 1,
+            secretWord: '',
+            roles: [],
+            currentIdx: 0,
+            isRevealed: false
+        };
+
+        const pInput = document.getElementById('p-count');
+        const sInput = document.getElementById('s-count');
+        
+        pInput.oninput = function() {
+            state.players = parseInt(this.value);
+            document.getElementById('p-count-val').innerText = state.players;
+            
+            // Логика: шпионов не может быть больше половины игроков
+            let maxSpies = Math.max(1, Math.floor(state.players / 3)); 
+            if (state.players >= 10) maxSpies = 3;
+            
+            sInput.max = maxSpies;
+            if(parseInt(sInput.value) > maxSpies) {
+                sInput.value = maxSpies;
+                document.getElementById('s-count-val').innerText = maxSpies;
+            }
+        };
+
+        sInput.oninput = function() {
+            state.spies = parseInt(this.value);
+            document.getElementById('s-count-val').innerText = state.spies;
+        };
+
+        function selectCategory(cat, btn) {
+            state.category = cat;
+            document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+        }
+
+        function initGame() {
+            state.players = parseInt(pInput.value);
+            state.spies = parseInt(sInput.value);
+            const list = CATEGORIES[state.category].words;
+            state.secretWord = list[Math.floor(Math.random() * list.length)];
+            
+            // Сброс и перемешивание ролей
+            state.roles = new Array(state.players).fill('normal');
+            let placedSpies = 0;
+            while(placedSpies < state.spies) {
+                let r = Math.floor(Math.random() * state.players);
+                if(state.roles[r] === 'normal') {
+                    state.roles[r] = 'spy';
+                    placedSpies++;
+                }
+            }
+            
+            state.currentIdx = 0;
+            state.isRevealed = false;
+            document.getElementById('setup-screen').classList.add('hidden');
+            document.getElementById('reveal-screen').classList.remove('hidden');
+            updateUI();
+        }
+
+        function toggleCard() {
+            const inner = document.getElementById('card-inner');
+            const hint = document.getElementById('hint-text');
+            if(!state.isRevealed) {
+                inner.classList.add('is-flipped');
+                state.isRevealed = true;
+                hint.innerText = "Закрой карту и передай телефон";
+            } else {
+                inner.classList.remove('is-flipped');
+                state.isRevealed = false;
+                setTimeout(() => {
+                    state.currentIdx++;
+                    if(state.currentIdx < state.players) {
+                        updateUI();
+                        hint.innerText = "Нажми на карту";
+                    } else {
+                        showGame();
+                    }
+                }, 300);
+            }
+        }
+
+        function updateUI() {
+            document.getElementById('current-player').innerText = state.currentIdx + 1;
+            const val = document.getElementById('role-value');
+            const badge = document.getElementById('category-badge');
+            badge.innerText = CATEGORIES[state.category].name;
+
+            if(state.roles[state.currentIdx] === 'spy') {
+                val.innerText = "ТЫ ШПИОН 🕵️‍♂️";
+                val.style.color = "#ef4444";
+                val.style.fontSize = "1.8rem";
+            } else {
+                val.innerText = state.secretWord;
+                val.style.color = "#1e293b";
+                val.style.fontSize = state.secretWord.length > 10 ? "1.4rem" : "1.8rem";
+            }
+        }
+
+        function showGame() {
+            document.getElementById('reveal-screen').classList.add('hidden');
+            document.getElementById('game-screen').classList.remove('hidden');
+            document.getElementById('results-area').classList.add('hidden');
+            document.getElementById('reveal-spy-btn').classList.remove('hidden');
+        }
+
+        function showResults() {
+            document.getElementById('final-word').innerText = state.secretWord;
+            const spyList = document.getElementById('spy-list');
+            spyList.innerHTML = '';
+            state.roles.forEach((role, idx) => {
+                if(role === 'spy') {
+                    const span = document.createElement('span');
+                    span.className = "bg-red-500/10 text-red-500 border border-red-500/20 px-3 py-1 rounded-lg font-bold text-[11px]";
+                    span.innerText = `Игрок ${idx + 1}`;
+                    spyList.appendChild(span);
+                }
+            });
+            document.getElementById('results-area').classList.remove('hidden');
+            document.getElementById('reveal-spy-btn').classList.add('hidden');
+        }
+    </script>
+</body>
+</html>
+
+```
