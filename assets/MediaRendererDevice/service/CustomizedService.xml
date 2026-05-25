@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scpd xmlns="urn:schemas-upnp-org:service-1-0">
+    <specVersion>
+        <major>1</major>
+        <minor>0</minor>
+    </specVersion>
+    <actionList>
+        <action>
+            <name>SendMessage</name>
+            <argumentList>
+                <argument>
+                    <name>InstanceID</name>
+                    <direction>in</direction>
+                    <relatedStateVariable>A_ARG_TYPE_InstanceID</relatedStateVariable>
+                </argument>
+                <argument>
+                    <name>Message</name>
+                    <direction>in</direction>
+                    <relatedStateVariable>A_ARG_TYPE_Message</relatedStateVariable>
+                </argument>
+                <argument>
+                    <name>Encrypt</name>
+                    <direction>in</direction>
+                    <relatedStateVariable>A_ARG_TYPE_Encrypt</relatedStateVariable>
+                </argument>
+                <argument>
+                    <name>Response</name>
+                    <direction>out</direction>
+                    <relatedStateVariable>A_ARG_TYPE_Response</relatedStateVariable>
+                </argument>
+            </argumentList>
+        </action>
+    </actionList>
+    <serviceStateTable>
+        <stateVariable sendEvents="no">
+            <name>A_ARG_TYPE_InstanceID</name>
+            <dataType>ui4</dataType>
+        </stateVariable>
+        <stateVariable sendEvents="no">
+            <name>A_ARG_TYPE_Message</name>
+            <dataType>string</dataType>
+        </stateVariable>
+        <stateVariable sendEvents="no">
+            <name>A_ARG_TYPE_Response</name>
+            <dataType>string</dataType>
+        </stateVariable>
+        <stateVariable sendEvents="no">
+            <name>A_ARG_TYPE_Encrypt</name>
+            <dataType>ui4</dataType>
+        </stateVariable>
+        <stateVariable sendEvents="yes">
+            <name>sendMessage</name>
+            <dataType>string</dataType>
+        </stateVariable>
+    </serviceStateTable>
+</scpd>

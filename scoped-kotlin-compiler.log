@@ -1,0 +1,96 @@
+info: generating components: <setting_release>
+info: VF coming 2: RenderLoginGroup | param: vm: LoginGroupVM = assemViewModel<LoginGroupState, LoginGroupVM>()
+info: param added (hidden, no default): /* hidden */ defaultVmParamMask: Int
+info: processing param: vm: LoginGroupVM = assemViewModel<LoginGroupState, LoginGroupVM>()
+info: function name: assemViewModel
+info: tmpVariable created: val tmp1_vm: T = requireNotNull</* null */>(value = when {
+  equals(first = and(first = defaultVmParamMask, second = 1), second = 1) -> { // BLOCK
+    d(p0 = "Testing...", p1 = "default expression executed RenderLoginGroup | param name: vm")
+    assemViewModel<LoginGroupState, LoginGroupVM>()
+  }
+  else -> { // BLOCK
+    d(p0 = "Testing...", p1 = "value passed from caller RenderLoginGroup | param name: vm")
+    vm
+  }
+}, lazyMessage = local fun <anonymous>(): String { // BLOCK
+  "This cannot be null"
+})
+info: processing param: /* hidden */ defaultVmParamMask: Int
+info: param default value is null /* hidden */ defaultVmParamMask: Int
+info: default value is null null or no potentialViewmodel param
+info: final original function: @ScopeDefine(scope = [LoginScope::class])
+@Composable
+@KcpMessage(message = "{\"injectViewModelParamsNames\":[\"vm\"],\"paramsMaskIndex\":\"1\"}")
+fun RenderLoginGroup(vm: LoginGroupVM? = null, /* hidden */ defaultVmParamMask: Int) {
+  val tmp0_scope: T = remember</* null */>(calculation = local fun <anonymous>(): LoginScope LoginScope())
+  { // BLOCK
+  }
+  Scope(scope = tmp0_scope, content =   @Composable
+local fun <anonymous>() { // BLOCK
+    { // BLOCK
+    }
+    val tmp1_vm: T = requireNotNull</* null */>(value = when {
+      equals(first = and(first = defaultVmParamMask, second = 1), second = 1) -> { // BLOCK
+        d(p0 = "Testing...", p1 = "default expression executed RenderLoginGroup | param name: vm")
+        assemViewModel<LoginGroupState, LoginGroupVM>()
+      }
+      else -> { // BLOCK
+        d(p0 = "Testing...", p1 = "value passed from caller RenderLoginGroup | param name: vm")
+        vm
+      }
+    }, lazyMessage = local fun <anonymous>(): String { // BLOCK
+      "This cannot be null"
+    })
+    RenderLoginGroupScopeGenerated(vm = tmp1_vm)
+  })
+}
+
+
+info: final generated function: @Composable
+fun RenderLoginGroupScopeGenerated(vm: LoginGroupVM) {
+  val state: LoginGroupState
+    val state$delegate: State<LoginGroupState> = vm.collectAsState<LoginGroupState>()
+    local get(): LoginGroupState {
+      return state$delegate.getValue<LoginGroupState>(thisObj = null, property = ::state)
+    }
+
+  RenderLoginGroup(state = <get-state>())
+}
+
+
+info: visitCall -> RenderLoginGroup
+info: visitCall scoped -> RenderLoginGroup
+info:  valueArgs=1, typeArgs=0
+info:  params=vm: org.jetbrains.kotlin.ir.types.impl.IrSimpleTypeImpl@54d6785a, defaultVmParamMask: org.jetbrains.kotlin.ir.types.impl.IrSimpleTypeImpl@58f00ec6
+info: param vm idx=0 missing -> set bit 1
+info: param defaultVmParamMask idx=1 untracked -> no mask bit
+info: === MASK PARAMETER ANALYSIS ===
+info: function: RenderLoginGroup
+info: raw mask: 0x1 (1)
+info: binary: 01
+info: parameter breakdown:
+info:   [0] vm: MISSING (use default) [TRACKED]
+info:   [1] defaultVmParamMask: PROVIDED [UNTRACKED]
+info: === END MASK ANALYSIS ===
+info: set mask at[1] = 1 for RenderLoginGroup
+info: visitCall RenderLoginGroup params=[vm: org.jetbrains.kotlin.ir.types.impl.IrSimpleTypeImpl@54d6785a, defaultVmParamMask: org.jetbrains.kotlin.ir.types.impl.IrSimpleTypeImpl@58f00ec6] mask=1 args=1
+info: old: RenderLoginGroup()
+info: new: RenderLoginGroup(, defaultVmParamMask = 1)
+info: visitCall -> RenderLoginGroup
+info: visitCall scoped -> RenderLoginGroup
+info:  valueArgs=1, typeArgs=0
+info:  params=vm: org.jetbrains.kotlin.ir.types.impl.IrSimpleTypeImpl@54d6785a, defaultVmParamMask: org.jetbrains.kotlin.ir.types.impl.IrSimpleTypeImpl@58f00ec6
+info: param vm idx=0 provided -> bit stays 0
+info: param defaultVmParamMask idx=1 untracked -> no mask bit
+info: === MASK PARAMETER ANALYSIS ===
+info: function: RenderLoginGroup
+info: raw mask: 0x0 (0)
+info: binary: 00
+info: parameter breakdown:
+info:   [0] vm: PROVIDED [TRACKED]
+info:   [1] defaultVmParamMask: PROVIDED [UNTRACKED]
+info: === END MASK ANALYSIS ===
+info: set mask at[1] = 0 for RenderLoginGroup
+info: visitCall RenderLoginGroup params=[vm: org.jetbrains.kotlin.ir.types.impl.IrSimpleTypeImpl@54d6785a, defaultVmParamMask: org.jetbrains.kotlin.ir.types.impl.IrSimpleTypeImpl@58f00ec6] mask=0 args=1
+info: old: RenderLoginGroup(vm = assemViewModel<LoginGroupState, LoginGroupVM>())
+info: new: RenderLoginGroup(vm = assemViewModel<LoginGroupState, LoginGroupVM>(), defaultVmParamMask = 0)

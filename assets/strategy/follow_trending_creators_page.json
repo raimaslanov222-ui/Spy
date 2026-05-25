@@ -1,0 +1,1 @@
+{"config":[{"id":"should_run","filters":[{"name":"store_region","operator":"in","value":"DE","result":"run"},{"result":"run","name":"login_status","value":"1","operator":"=="}],"fallback_result":"not_run"}]}

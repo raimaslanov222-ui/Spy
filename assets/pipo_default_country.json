@@ -1,0 +1,1970 @@
+[
+    {
+        "country_name": "Afghanistan",
+        "country_code": "AF",
+        "country_of_residence": "Afghanistan",
+        "nationality_and_citizenship": "Afghan",
+        "currency": "AFN",
+        "phone_country_code": "93"
+    },
+    {
+        "country_name": "Albania",
+        "country_code": "AL",
+        "country_of_residence": "Albania",
+        "nationality_and_citizenship": "Albanian",
+        "currency": "ALL",
+        "phone_country_code": "355"
+    },
+    {
+        "country_name": "Algeria",
+        "country_code": "DZ",
+        "country_of_residence": "Algeria",
+        "nationality_and_citizenship": "Algerian",
+        "currency": "DZD",
+        "phone_country_code": "213"
+    },
+    {
+        "country_name": "American Samoa",
+        "country_code": "AS",
+        "country_of_residence": "American Samoa",
+        "nationality_and_citizenship": "Nationals but not citizens of the United States at birth",
+        "currency": "USD",
+        "phone_country_code": "1"
+    },
+    {
+        "country_name": "Andorra",
+        "country_code": "AD",
+        "country_of_residence": "Andorra",
+        "nationality_and_citizenship": "Andorran",
+        "currency": "EUR",
+        "phone_country_code": "376"
+    },
+    {
+        "country_name": "Angola",
+        "country_code": "AO",
+        "country_of_residence": "Angola",
+        "nationality_and_citizenship": "Angolan",
+        "currency": "AOA",
+        "phone_country_code": "244"
+    },
+    {
+        "country_name": "Anguilla",
+        "country_code": "AI",
+        "country_of_residence": "Anguilla",
+        "nationality_and_citizenship": "British",
+        "currency": "XCD",
+        "phone_country_code": "1"
+    },
+    {
+        "country_name": "Antarctica",
+        "country_code": "",
+        "country_of_residence": "",
+        "nationality_and_citizenship": "",
+        "currency": "",
+        "phone_country_code": "672"
+    },
+    {
+        "country_name": "Antigua & Barbuda",
+        "country_code": "AG",
+        "country_of_residence": "Antigua & Barbuda",
+        "nationality_and_citizenship": "Antigua & Barbuda",
+        "currency": "XCD",
+        "phone_country_code": "1"
+    },
+    {
+        "country_name": "Argentina",
+        "country_code": "AR",
+        "country_of_residence": "Argentina",
+        "nationality_and_citizenship": "Argentinian",
+        "currency": "ARS",
+        "phone_country_code": "54"
+    },
+    {
+        "country_name": "Armenia",
+        "country_code": "AM",
+        "country_of_residence": "Armenia",
+        "nationality_and_citizenship": "Armenian",
+        "currency": "AMD",
+        "phone_country_code": "374"
+    },
+    {
+        "country_name": "Aruba",
+        "country_code": "AW",
+        "country_of_residence": "Aruba",
+        "nationality_and_citizenship": "Aruban",
+        "currency": "AWG",
+        "phone_country_code": "297"
+    },
+    {
+        "country_name": "Australia",
+        "country_code": "AU",
+        "country_of_residence": "Australia",
+        "nationality_and_citizenship": "Australian",
+        "currency": "AUD",
+        "phone_country_code": "61"
+    },
+    {
+        "country_name": "Austria",
+        "country_code": "AT",
+        "country_of_residence": "Austria",
+        "nationality_and_citizenship": "Austrian",
+        "currency": "EUR",
+        "phone_country_code": "43"
+    },
+    {
+        "country_name": "Azerbaijan",
+        "country_code": "AZ",
+        "country_of_residence": "Azerbaijan",
+        "nationality_and_citizenship": "Azerbaijani",
+        "currency": "AZN",
+        "phone_country_code": "994"
+    },
+    {
+        "country_name": "Bahrain",
+        "country_code": "BH",
+        "country_of_residence": "Bahrain",
+        "nationality_and_citizenship": "Bahraini",
+        "currency": "BHD",
+        "phone_country_code": "973"
+    },
+    {
+        "country_name": "Bangladesh",
+        "country_code": "BD",
+        "country_of_residence": "Bangladesh",
+        "nationality_and_citizenship": "Bangladeshi",
+        "currency": "BDT",
+        "phone_country_code": "880"
+    },
+    {
+        "country_name": "Barbados",
+        "country_code": "BB",
+        "country_of_residence": "Barbados",
+        "nationality_and_citizenship": "Barbadian",
+        "currency": "BBD",
+        "phone_country_code": "1"
+    },
+    {
+        "country_name": "Belarus",
+        "country_code": "BY",
+        "country_of_residence": "Belarus",
+        "nationality_and_citizenship": "Belarusian or Belarusan",
+        "currency": "BYN",
+        "phone_country_code": "375"
+    },
+    {
+        "country_name": "Belgium",
+        "country_code": "BE",
+        "country_of_residence": "Belgium",
+        "nationality_and_citizenship": "Belgian",
+        "currency": "EUR",
+        "phone_country_code": "32"
+    },
+    {
+        "country_name": "Belize",
+        "country_code": "BZ",
+        "country_of_residence": "Belize",
+        "nationality_and_citizenship": "Belizian",
+        "currency": "BZD",
+        "phone_country_code": "501"
+    },
+    {
+        "country_name": "Benin",
+        "country_code": "BJ",
+        "country_of_residence": "Benin",
+        "nationality_and_citizenship": "Beninese",
+        "currency": "XOF",
+        "phone_country_code": "229"
+    },
+    {
+        "country_name": "Bermuda",
+        "country_code": "BM",
+        "country_of_residence": "Bermuda",
+        "nationality_and_citizenship": "Bermudian",
+        "currency": "BMD",
+        "phone_country_code": "1"
+    },
+    {
+        "country_name": "Bhutan",
+        "country_code": "BT",
+        "country_of_residence": "Bhutan",
+        "nationality_and_citizenship": "Bhutanese",
+        "currency": "INR,BTN",
+        "phone_country_code": "975"
+    },
+    {
+        "country_name": "Bolivia",
+        "country_code": "BO",
+        "country_of_residence": "Bolivia",
+        "nationality_and_citizenship": "Bolivian",
+        "currency": "BOB",
+        "phone_country_code": "591"
+    },
+    {
+        "country_name": "Bosnia & Herzegovina",
+        "country_code": "BA",
+        "country_of_residence": "Bosnia & Herzegovina",
+        "nationality_and_citizenship": "Bosnian",
+        "currency": "BAM",
+        "phone_country_code": "387"
+    },
+    {
+        "country_name": "Botswana",
+        "country_code": "BW",
+        "country_of_residence": "Botswana",
+        "nationality_and_citizenship": "Botswanan",
+        "currency": "BWP",
+        "phone_country_code": "267"
+    },
+    {
+        "country_name": "Bouvet Island",
+        "country_code": "BV",
+        "country_of_residence": "Bouvet Island",
+        "nationality_and_citizenship": "Norwegian",
+        "currency": "NOK",
+        "phone_country_code": "47"
+    },
+    {
+        "country_name": "Brazil",
+        "country_code": "BR",
+        "country_of_residence": "Brazil",
+        "nationality_and_citizenship": "Brazilian",
+        "currency": "BRL",
+        "phone_country_code": "55"
+    },
+    {
+        "country_name": "British Indian Ocean Territory",
+        "country_code": "IO",
+        "country_of_residence": "British Indian Ocean Territory",
+        "nationality_and_citizenship": "British",
+        "currency": "USD",
+        "phone_country_code": "246"
+    },
+    {
+        "country_name": "British Virgin Islands",
+        "country_code": "VG",
+        "country_of_residence": "British Virgin Islands",
+        "nationality_and_citizenship": "British",
+        "currency": "USD",
+        "phone_country_code": "1"
+    },
+    {
+        "country_name": "Brunei",
+        "country_code": "BN",
+        "country_of_residence": "Brunei",
+        "nationality_and_citizenship": "Bruneian",
+        "currency": "BND",
+        "phone_country_code": "673"
+    },
+    {
+        "country_name": "Bulgaria",
+        "country_code": "BG",
+        "country_of_residence": "Bulgaria",
+        "nationality_and_citizenship": "Bulgarian",
+        "currency": "BGN",
+        "phone_country_code": "359"
+    },
+    {
+        "country_name": "Burkina",
+        "country_code": "BF",
+        "country_of_residence": "Burkina",
+        "nationality_and_citizenship": "Burkinese",
+        "currency": "XOF",
+        "phone_country_code": "226"
+    },
+    {
+        "country_name": "Burundi",
+        "country_code": "BI",
+        "country_of_residence": "Burundi",
+        "nationality_and_citizenship": "Burundian",
+        "currency": "BIF",
+        "phone_country_code": "257"
+    },
+    {
+        "country_name": "Cambodia",
+        "country_code": "KH",
+        "country_of_residence": "Cambodia",
+        "nationality_and_citizenship": "Cambodian",
+        "currency": "KHR",
+        "phone_country_code": "855"
+    },
+    {
+        "country_name": "Cameroon",
+        "country_code": "CM",
+        "country_of_residence": "Cameroon",
+        "nationality_and_citizenship": "Cameroonian",
+        "currency": "XAF",
+        "phone_country_code": "237"
+    },
+    {
+        "country_name": "Canada",
+        "country_code": "CA",
+        "country_of_residence": "Canada",
+        "nationality_and_citizenship": "Canadian",
+        "currency": "CAD",
+        "phone_country_code": "1"
+    },
+    {
+        "country_name": "Cape Verde",
+        "country_code": "CV",
+        "country_of_residence": "Cape Verde",
+        "nationality_and_citizenship": "Cape Verdean",
+        "currency": "CVE",
+        "phone_country_code": "238"
+    },
+    {
+        "country_name": "Caribbean Netherlands",
+        "country_code": "BQ",
+        "country_of_residence": "Caribbean Netherlands",
+        "nationality_and_citizenship": "Dutch",
+        "currency": "USD",
+        "phone_country_code": "599"
+    },
+    {
+        "country_name": "Cayman Islands",
+        "country_code": "KY",
+        "country_of_residence": "Cayman Islands",
+        "nationality_and_citizenship": "Cayman Islander",
+        "currency": "KYD",
+        "phone_country_code": "1"
+    },
+    {
+        "country_name": "Central African Republic",
+        "country_code": "CF",
+        "country_of_residence": "Central African Republic",
+        "nationality_and_citizenship": "Central African",
+        "currency": "XAF",
+        "phone_country_code": "236"
+    },
+    {
+        "country_name": "Chad",
+        "country_code": "TD",
+        "country_of_residence": "Chad",
+        "nationality_and_citizenship": "Chadian",
+        "currency": "XAF",
+        "phone_country_code": "235"
+    },
+    {
+        "country_name": "Chile",
+        "country_code": "CL",
+        "country_of_residence": "Chile",
+        "nationality_and_citizenship": "Chilean",
+        "currency": "CLP",
+        "phone_country_code": "56"
+    },
+    {
+        "country_name": "China",
+        "country_code": "CN",
+        "country_of_residence": "China",
+        "nationality_and_citizenship": "Chinese",
+        "currency": "CNY",
+        "phone_country_code": "86"
+    },
+    {
+        "country_name": "Christmas Island",
+        "country_code": "CX",
+        "country_of_residence": "Christmas Island",
+        "nationality_and_citizenship": "Christmas Islander",
+        "currency": "AUD",
+        "phone_country_code": "61"
+    },
+    {
+        "country_name": "Cocos (Keeling) Islands",
+        "country_code": "CC",
+        "country_of_residence": "Cocos (Keeling) Islands",
+        "nationality_and_citizenship": "Australian",
+        "currency": "AUD",
+        "phone_country_code": "61"
+    },
+    {
+        "country_name": "Colombia",
+        "country_code": "CO",
+        "country_of_residence": "Colombia",
+        "nationality_and_citizenship": "Colombian",
+        "currency": "COP",
+        "phone_country_code": "57"
+    },
+    {
+        "country_name": "Cook Islands",
+        "country_code": "CK",
+        "country_of_residence": "Cook Islands",
+        "nationality_and_citizenship": "Congolese",
+        "currency": "NZD",
+        "phone_country_code": "682"
+    },
+    {
+        "country_name": "Costa Rica",
+        "country_code": "CR",
+        "country_of_residence": "Costa Rica",
+        "nationality_and_citizenship": "Costa Rican",
+        "currency": "CRC",
+        "phone_country_code": "506"
+    },
+    {
+        "country_name": "Croatia",
+        "country_code": "HR",
+        "country_of_residence": "Croatia",
+        "nationality_and_citizenship": "Croat or Croatian",
+        "currency": "HRK",
+        "phone_country_code": "385"
+    },
+    {
+        "country_name": "Cuba",
+        "country_code": "CU",
+        "country_of_residence": "Cuba",
+        "nationality_and_citizenship": "Cuban",
+        "currency": "CUP,CUC",
+        "phone_country_code": "53"
+    },
+    {
+        "country_name": "Cyprus",
+        "country_code": "CY",
+        "country_of_residence": "Cyprus",
+        "nationality_and_citizenship": "Cypriot",
+        "currency": "EUR",
+        "phone_country_code": "357"
+    },
+    {
+        "country_name": "Czech Republic",
+        "country_code": "CZ",
+        "country_of_residence": "Czech Republic",
+        "nationality_and_citizenship": "Czech",
+        "currency": "CZK",
+        "phone_country_code": "420"
+    },
+    {
+        "country_name": "Côte d'Ivoire",
+        "country_code": "CI",
+        "country_of_residence": "Côte d'Ivoire",
+        "nationality_and_citizenship": "Ivorian",
+        "currency": "XOF",
+        "phone_country_code": "225"
+    },
+    {
+        "country_name": "Democratic Republic of the Congo",
+        "country_code": "CD",
+        "country_of_residence": "Democratic Republic of the Congo",
+        "nationality_and_citizenship": "Congolese",
+        "currency": "CDF",
+        "phone_country_code": "243"
+    },
+    {
+        "country_name": "Denmark",
+        "country_code": "DK",
+        "country_of_residence": "Denmark",
+        "nationality_and_citizenship": "Danish",
+        "currency": "DKK",
+        "phone_country_code": "45"
+    },
+    {
+        "country_name": "Djibouti",
+        "country_code": "DJ",
+        "country_of_residence": "Djibouti",
+        "nationality_and_citizenship": "Djiboutian",
+        "currency": "DJF",
+        "phone_country_code": "253"
+    },
+    {
+        "country_name": "Dominica",
+        "country_code": "DM",
+        "country_of_residence": "Dominica",
+        "nationality_and_citizenship": "Dominican",
+        "currency": "XCD",
+        "phone_country_code": "1"
+    },
+    {
+        "country_name": "Dominican Republic",
+        "country_code": "DO",
+        "country_of_residence": "Dominican Republic",
+        "nationality_and_citizenship": "Dominican",
+        "currency": "DOP",
+        "phone_country_code": "809"
+    },
+    {
+        "country_name": "Ecuador",
+        "country_code": "EC",
+        "country_of_residence": "Ecuador",
+        "nationality_and_citizenship": "Ecuadorean",
+        "currency": "USD",
+        "phone_country_code": "593"
+    },
+    {
+        "country_name": "Egypt",
+        "country_code": "EG",
+        "country_of_residence": "Egypt",
+        "nationality_and_citizenship": "Egyptian",
+        "currency": "EGP",
+        "phone_country_code": "20"
+    },
+    {
+        "country_name": "El Salvador",
+        "country_code": "SV",
+        "country_of_residence": "El Salvador",
+        "nationality_and_citizenship": "Salvadorean",
+        "currency": "SVC,USD",
+        "phone_country_code": "503"
+    },
+    {
+        "country_name": "Equatorial Guinea",
+        "country_code": "GQ",
+        "country_of_residence": "Equatorial Guinea",
+        "nationality_and_citizenship": "English",
+        "currency": "XAF",
+        "phone_country_code": "240"
+    },
+    {
+        "country_name": "Eritrea",
+        "country_code": "ER",
+        "country_of_residence": "Eritrea",
+        "nationality_and_citizenship": "Eritrean",
+        "currency": "ERN",
+        "phone_country_code": "291"
+    },
+    {
+        "country_name": "Estonia",
+        "country_code": "EE",
+        "country_of_residence": "Estonia",
+        "nationality_and_citizenship": "Estonian",
+        "currency": "EUR",
+        "phone_country_code": "372"
+    },
+    {
+        "country_name": "Ethiopia",
+        "country_code": "ET",
+        "country_of_residence": "Ethiopia",
+        "nationality_and_citizenship": "Ethiopian",
+        "currency": "ETB",
+        "phone_country_code": "251"
+    },
+    {
+        "country_name": "Falkland Islands",
+        "country_code": "",
+        "country_of_residence": "",
+        "nationality_and_citizenship": "",
+        "currency": "",
+        "phone_country_code": "500"
+    },
+    {
+        "country_name": "Faroe Islands",
+        "country_code": "FO",
+        "country_of_residence": "Faroe Islands",
+        "nationality_and_citizenship": "Danish",
+        "currency": "DKK",
+        "phone_country_code": "298"
+    },
+    {
+        "country_name": "Federated States of Micronesia",
+        "country_code": "FM",
+        "country_of_residence": "Federated States of Micronesia",
+        "nationality_and_citizenship": "Federated States of Micronesia",
+        "currency": "USD",
+        "phone_country_code": "691"
+    },
+    {
+        "country_name": "Fiji",
+        "country_code": "",
+        "country_of_residence": "",
+        "nationality_and_citizenship": "",
+        "currency": "FJD",
+        "phone_country_code": "679"
+    },
+    {
+        "country_name": "Finland",
+        "country_code": "FI",
+        "country_of_residence": "Finland",
+        "nationality_and_citizenship": "Finnish",
+        "currency": "EUR",
+        "phone_country_code": "358"
+    },
+    {
+        "country_name": "France",
+        "country_code": "FR",
+        "country_of_residence": "France",
+        "nationality_and_citizenship": "French",
+        "currency": "EUR",
+        "phone_country_code": "33"
+    },
+    {
+        "country_name": "French Guiana",
+        "country_code": "GF",
+        "country_of_residence": "French Guiana",
+        "nationality_and_citizenship": "French",
+        "currency": "EUR",
+        "phone_country_code": "594"
+    },
+    {
+        "country_name": "French Southern Territories",
+        "country_code": "TF",
+        "country_of_residence": "French Southern Territories",
+        "nationality_and_citizenship": "French",
+        "currency": "EUR",
+        "phone_country_code": "262"
+    },
+    {
+        "country_name": "French polynesia",
+        "country_code": "PF",
+        "country_of_residence": "French polynesia",
+        "nationality_and_citizenship": "French",
+        "currency": "XPF",
+        "phone_country_code": "689"
+    },
+    {
+        "country_name": "Gabon",
+        "country_code": "GA",
+        "country_of_residence": "Gabon",
+        "nationality_and_citizenship": "Gabonese",
+        "currency": "XAF",
+        "phone_country_code": "241"
+    },
+    {
+        "country_name": "Gambia",
+        "country_code": "GM",
+        "country_of_residence": "Gambia",
+        "nationality_and_citizenship": "Gambian",
+        "currency": "GMD",
+        "phone_country_code": "220"
+    },
+    {
+        "country_name": "Georgia",
+        "country_code": "GE",
+        "country_of_residence": "Georgia",
+        "nationality_and_citizenship": "Georgian",
+        "currency": "GEL",
+        "phone_country_code": "995"
+    },
+    {
+        "country_name": "Germany",
+        "country_code": "DE",
+        "country_of_residence": "Germany",
+        "nationality_and_citizenship": "German",
+        "currency": "EUR",
+        "phone_country_code": "49"
+    },
+    {
+        "country_name": "Ghana",
+        "country_code": "GH",
+        "country_of_residence": "Ghana",
+        "nationality_and_citizenship": "Ghanaian",
+        "currency": "GHS",
+        "phone_country_code": "233"
+    },
+    {
+        "country_name": "Gibraltar",
+        "country_code": "GI",
+        "country_of_residence": "Gibraltar",
+        "nationality_and_citizenship": "Gibraltarians",
+        "currency": "GIP",
+        "phone_country_code": "350"
+    },
+    {
+        "country_name": "Greece",
+        "country_code": "GR",
+        "country_of_residence": "Greece",
+        "nationality_and_citizenship": "Greek",
+        "currency": "EUR",
+        "phone_country_code": "30"
+    },
+    {
+        "country_name": "Greenland",
+        "country_code": "GL",
+        "country_of_residence": "Greenland",
+        "nationality_and_citizenship": "Greenlander",
+        "currency": "DKK",
+        "phone_country_code": "299"
+    },
+    {
+        "country_name": "Grenada",
+        "country_code": "GD",
+        "country_of_residence": "Grenada",
+        "nationality_and_citizenship": "Grenadian",
+        "currency": "XCD",
+        "phone_country_code": "1"
+    },
+    {
+        "country_name": "Guadeloupe",
+        "country_code": "GP",
+        "country_of_residence": "Guadeloupe",
+        "nationality_and_citizenship": "Guadeloupe",
+        "currency": "EUR",
+        "phone_country_code": "590"
+    },
+    {
+        "country_name": "Guam",
+        "country_code": "GU",
+        "country_of_residence": "Guam",
+        "nationality_and_citizenship": "American",
+        "currency": "USD",
+        "phone_country_code": "1"
+    },
+    {
+        "country_name": "Guatemala",
+        "country_code": "GT",
+        "country_of_residence": "Guatemala",
+        "nationality_and_citizenship": "Guatemalan",
+        "currency": "GTQ",
+        "phone_country_code": "502"
+    },
+    {
+        "country_name": "Guernsey",
+        "country_code": "GG",
+        "country_of_residence": "Guernsey",
+        "nationality_and_citizenship": "Guernsey",
+        "currency": "GBP",
+        "phone_country_code": "44"
+    },
+    {
+        "country_name": "Guinea",
+        "country_code": "GN",
+        "country_of_residence": "Guinea",
+        "nationality_and_citizenship": "Guinean",
+        "currency": "GNF",
+        "phone_country_code": "224"
+    },
+    {
+        "country_name": "Guinea-Bissau",
+        "country_code": "GW",
+        "country_of_residence": "Guinea-Bissau",
+        "nationality_and_citizenship": "Guinea-Bissau",
+        "currency": "XOF",
+        "phone_country_code": "245"
+    },
+    {
+        "country_name": "Guyana",
+        "country_code": "GY",
+        "country_of_residence": "Guyana",
+        "nationality_and_citizenship": "Guyanese",
+        "currency": "GYD",
+        "phone_country_code": "592"
+    },
+    {
+        "country_name": "Haiti",
+        "country_code": "HT",
+        "country_of_residence": "Haiti",
+        "nationality_and_citizenship": "Haitian",
+        "currency": "HTG,USD",
+        "phone_country_code": "509"
+    },
+    {
+        "country_name": "Heard Island and McDonald Islands",
+        "country_code": "HM",
+        "country_of_residence": "Heard Island and McDonald Islands",
+        "nationality_and_citizenship": "Heard Island and McDonald Islands",
+        "currency": "AUD",
+        "phone_country_code": "672"
+    },
+    {
+        "country_name": "Honduras",
+        "country_code": "HN",
+        "country_of_residence": "Honduras",
+        "nationality_and_citizenship": "Honduran",
+        "currency": "HNL",
+        "phone_country_code": "504"
+    },
+    {
+        "country_name": "Hong Kong",
+        "country_code": "HK",
+        "country_of_residence": "Hong Kong",
+        "nationality_and_citizenship": "Hong Konger",
+        "currency": "HKD",
+        "phone_country_code": "852"
+    },
+    {
+        "country_name": "Hungary",
+        "country_code": "HU",
+        "country_of_residence": "Hungary",
+        "nationality_and_citizenship": "Hungarian",
+        "currency": "HUF",
+        "phone_country_code": "36"
+    },
+    {
+        "country_name": "Iceland",
+        "country_code": "IS",
+        "country_of_residence": "Iceland",
+        "nationality_and_citizenship": "Icelandic",
+        "currency": "ISK",
+        "phone_country_code": "354"
+    },
+    {
+        "country_name": "India",
+        "country_code": "IN",
+        "country_of_residence": "India",
+        "nationality_and_citizenship": "Indian",
+        "currency": "INR",
+        "phone_country_code": "91"
+    },
+    {
+        "country_name": "Indonesia",
+        "country_code": "ID",
+        "country_of_residence": "Indonesia",
+        "nationality_and_citizenship": "Indonesian",
+        "currency": "IDR",
+        "phone_country_code": "62"
+    },
+    {
+        "country_name": "Iran",
+        "country_code": "IR",
+        "country_of_residence": "Iran",
+        "nationality_and_citizenship": "Iranian",
+        "currency": "IRR",
+        "phone_country_code": "98"
+    },
+    {
+        "country_name": "Iraq",
+        "country_code": "IQ",
+        "country_of_residence": "Iraq",
+        "nationality_and_citizenship": "Iraqi",
+        "currency": "IQD",
+        "phone_country_code": "964"
+    },
+    {
+        "country_name": "Ireland",
+        "country_code": "IE",
+        "country_of_residence": "Ireland",
+        "nationality_and_citizenship": "Irish",
+        "currency": "EUR",
+        "phone_country_code": "353"
+    },
+    {
+        "country_name": "Isle of Man",
+        "country_code": "IM",
+        "country_of_residence": "Isle of Man",
+        "nationality_and_citizenship": "Isle of Man",
+        "currency": "GBP",
+        "phone_country_code": "44"
+    },
+    {
+        "country_name": "Israel",
+        "country_code": "IL",
+        "country_of_residence": "Israel",
+        "nationality_and_citizenship": "Israeli",
+        "currency": "ILS",
+        "phone_country_code": "972"
+    },
+    {
+        "country_name": "Italy",
+        "country_code": "IT",
+        "country_of_residence": "Italy",
+        "nationality_and_citizenship": "Italian",
+        "currency": "EUR",
+        "phone_country_code": "39"
+    },
+    {
+        "country_name": "Jamaica",
+        "country_code": "JM",
+        "country_of_residence": "Jamaica",
+        "nationality_and_citizenship": "Jamaican",
+        "currency": "JMD",
+        "phone_country_code": "1"
+    },
+    {
+        "country_name": "Japan",
+        "country_code": "JP",
+        "country_of_residence": "Japan",
+        "nationality_and_citizenship": "Japanese",
+        "currency": "JPY",
+        "phone_country_code": "81"
+    },
+    {
+        "country_name": "Jersey",
+        "country_code": "JE",
+        "country_of_residence": "Jersey",
+        "nationality_and_citizenship": "British",
+        "currency": "GBP",
+        "phone_country_code": "44"
+    },
+    {
+        "country_name": "Jordan",
+        "country_code": "JO",
+        "country_of_residence": "Jordan",
+        "nationality_and_citizenship": "Jordanian",
+        "currency": "JOD",
+        "phone_country_code": "962"
+    },
+    {
+        "country_name": "Kazakhstan",
+        "country_code": "KZ",
+        "country_of_residence": "Kazakhstan",
+        "nationality_and_citizenship": "Kazakh",
+        "currency": "KZT",
+        "phone_country_code": "7"
+    },
+    {
+        "country_name": "Kenya",
+        "country_code": "KE",
+        "country_of_residence": "Kenya",
+        "nationality_and_citizenship": "Kenyan",
+        "currency": "KES",
+        "phone_country_code": "254"
+    },
+    {
+        "country_name": "Kiribati",
+        "country_code": "KI",
+        "country_of_residence": "Kiribati",
+        "nationality_and_citizenship": "Kiribati",
+        "currency": "AUD",
+        "phone_country_code": "686"
+    },
+    {
+        "country_name": "Kuwait",
+        "country_code": "KW",
+        "country_of_residence": "Kuwait",
+        "nationality_and_citizenship": "Kuwaiti",
+        "currency": "KWD",
+        "phone_country_code": "965"
+    },
+    {
+        "country_name": "Kyrgyzstan",
+        "country_code": "KG",
+        "country_of_residence": "Kyrgyzstan",
+        "nationality_and_citizenship": "Kyrgyzstan",
+        "currency": "KGS",
+        "phone_country_code": "996"
+    },
+    {
+        "country_name": "Laos",
+        "country_code": "LA",
+        "country_of_residence": "Laos",
+        "nationality_and_citizenship": "Laotian",
+        "currency": "LAK",
+        "phone_country_code": "856"
+    },
+    {
+        "country_name": "Latvia",
+        "country_code": "LV",
+        "country_of_residence": "Latvia",
+        "nationality_and_citizenship": "Latvian",
+        "currency": "EUR",
+        "phone_country_code": "371"
+    },
+    {
+        "country_name": "Lebanon",
+        "country_code": "LB",
+        "country_of_residence": "Lebanon",
+        "nationality_and_citizenship": "Lebanese",
+        "currency": "LBP",
+        "phone_country_code": "961"
+    },
+    {
+        "country_name": "Lesotho",
+        "country_code": "LS",
+        "country_of_residence": "Lesotho",
+        "nationality_and_citizenship": "Lesotho",
+        "currency": "LSL,ZAR",
+        "phone_country_code": "266"
+    },
+    {
+        "country_name": "Liberia",
+        "country_code": "LR",
+        "country_of_residence": "Liberia",
+        "nationality_and_citizenship": "Liberian",
+        "currency": "LRD",
+        "phone_country_code": "231"
+    },
+    {
+        "country_name": "Libya",
+        "country_code": "LY",
+        "country_of_residence": "Libya",
+        "nationality_and_citizenship": "Libyan",
+        "currency": "LYD",
+        "phone_country_code": "218"
+    },
+    {
+        "country_name": "Liechtenstein",
+        "country_code": "LI",
+        "country_of_residence": "Liechtenstein",
+        "nationality_and_citizenship": "Liechtensteiner",
+        "currency": "CHF",
+        "phone_country_code": "423"
+    },
+    {
+        "country_name": "Lithuania",
+        "country_code": "LT",
+        "country_of_residence": "Lithuania",
+        "nationality_and_citizenship": "Lithuanian",
+        "currency": "EUR",
+        "phone_country_code": "370"
+    },
+    {
+        "country_name": "Luxembourg",
+        "country_code": "LU",
+        "country_of_residence": "Luxembourg",
+        "nationality_and_citizenship": "Luxembourg",
+        "currency": "EUR",
+        "phone_country_code": "352"
+    },
+    {
+        "country_name": "Macao",
+        "country_code": "MO",
+        "country_of_residence": "Macao",
+        "nationality_and_citizenship": "Macanese",
+        "currency": "MOP",
+        "phone_country_code": "853"
+    },
+    {
+        "country_name": "Madagascar",
+        "country_code": "MG",
+        "country_of_residence": "Madagascar",
+        "nationality_and_citizenship": "Malagasy or Madagascan",
+        "currency": "MGA",
+        "phone_country_code": "261"
+    },
+    {
+        "country_name": "Malawi",
+        "country_code": "MW",
+        "country_of_residence": "Malawi",
+        "nationality_and_citizenship": "Malawian",
+        "currency": "MWK",
+        "phone_country_code": "265"
+    },
+    {
+        "country_name": "Malaysia",
+        "country_code": "MY",
+        "country_of_residence": "Malaysia",
+        "nationality_and_citizenship": "Malaysian",
+        "currency": "MYR",
+        "phone_country_code": "60"
+    },
+    {
+        "country_name": "Maldives",
+        "country_code": "MV",
+        "country_of_residence": "Maldives",
+        "nationality_and_citizenship": "Maldivian",
+        "currency": "MVR",
+        "phone_country_code": "960"
+    },
+    {
+        "country_name": "Mali",
+        "country_code": "ML",
+        "country_of_residence": "Mali",
+        "nationality_and_citizenship": "Malian",
+        "currency": "XOF",
+        "phone_country_code": "223"
+    },
+    {
+        "country_name": "Malta",
+        "country_code": "MT",
+        "country_of_residence": "Malta",
+        "nationality_and_citizenship": "Maltese",
+        "currency": "EUR",
+        "phone_country_code": "356"
+    },
+    {
+        "country_name": "Marshall islands",
+        "country_code": "MH",
+        "country_of_residence": "Marshall islands",
+        "nationality_and_citizenship": "Marshall Islander",
+        "currency": "USD",
+        "phone_country_code": "692"
+    },
+    {
+        "country_name": "Martinique",
+        "country_code": "MQ",
+        "country_of_residence": "Martinique",
+        "nationality_and_citizenship": "Martinique",
+        "currency": "EUR",
+        "phone_country_code": "596"
+    },
+    {
+        "country_name": "Mauritania",
+        "country_code": "MR",
+        "country_of_residence": "Mauritania",
+        "nationality_and_citizenship": "Mauritanian",
+        "currency": "MRO",
+        "phone_country_code": "222"
+    },
+    {
+        "country_name": "Mauritius",
+        "country_code": "MU",
+        "country_of_residence": "Mauritius",
+        "nationality_and_citizenship": "Mauritian",
+        "currency": "MUR",
+        "phone_country_code": "230"
+    },
+    {
+        "country_name": "Mayotte",
+        "country_code": "YT",
+        "country_of_residence": "Mayotte",
+        "nationality_and_citizenship": "French",
+        "currency": "EUR",
+        "phone_country_code": "262"
+    },
+    {
+        "country_name": "Mexico",
+        "country_code": "MX",
+        "country_of_residence": "Mexico",
+        "nationality_and_citizenship": "Mexican",
+        "currency": "MXN",
+        "phone_country_code": "52"
+    },
+    {
+        "country_name": "Moldova",
+        "country_code": "MD",
+        "country_of_residence": "Moldova",
+        "nationality_and_citizenship": "Moldovan",
+        "currency": "MDL",
+        "phone_country_code": "373"
+    },
+    {
+        "country_name": "Monaco",
+        "country_code": "MC",
+        "country_of_residence": "Monaco",
+        "nationality_and_citizenship": "Monégasque or Monacan",
+        "currency": "EUR",
+        "phone_country_code": "377"
+    },
+    {
+        "country_name": "Mongolia",
+        "country_code": "MN",
+        "country_of_residence": "Mongolia",
+        "nationality_and_citizenship": "Mongolian",
+        "currency": "MNT",
+        "phone_country_code": "976"
+    },
+    {
+        "country_name": "Montenegro",
+        "country_code": "ME",
+        "country_of_residence": "Montenegro",
+        "nationality_and_citizenship": "Montenegrin",
+        "currency": "EUR",
+        "phone_country_code": "382"
+    },
+    {
+        "country_name": "Montserrat",
+        "country_code": "MS",
+        "country_of_residence": "Montserrat",
+        "nationality_and_citizenship": "British",
+        "currency": "XCD",
+        "phone_country_code": "1"
+    },
+    {
+        "country_name": "Morocco",
+        "country_code": "MA",
+        "country_of_residence": "Morocco",
+        "nationality_and_citizenship": "Moroccan",
+        "currency": "MAD",
+        "phone_country_code": "212"
+    },
+    {
+        "country_name": "Mozambique",
+        "country_code": "MZ",
+        "country_of_residence": "Mozambique",
+        "nationality_and_citizenship": "Mozambican",
+        "currency": "MZN",
+        "phone_country_code": "258"
+    },
+    {
+        "country_name": "Myanmar",
+        "country_code": "MM",
+        "country_of_residence": "Myanmar",
+        "nationality_and_citizenship": "Burmese",
+        "currency": "MMK",
+        "phone_country_code": "95"
+    },
+    {
+        "country_name": "Namibia",
+        "country_code": "NA",
+        "country_of_residence": "Namibia",
+        "nationality_and_citizenship": "Namibian",
+        "currency": "NAD,ZAR",
+        "phone_country_code": "264"
+    },
+    {
+        "country_name": "Nauru",
+        "country_code": "NR",
+        "country_of_residence": "Nauru",
+        "nationality_and_citizenship": "Nauru",
+        "currency": "AUD",
+        "phone_country_code": "674"
+    },
+    {
+        "country_name": "Nepal",
+        "country_code": "NP",
+        "country_of_residence": "Nepal",
+        "nationality_and_citizenship": "Nepalese",
+        "currency": "NPR",
+        "phone_country_code": "977"
+    },
+    {
+        "country_name": "Netherlands",
+        "country_code": "NL",
+        "country_of_residence": "Netherlands",
+        "nationality_and_citizenship": "Dutch",
+        "currency": "EUR",
+        "phone_country_code": "31"
+    },
+    {
+        "country_name": "New Caledonia",
+        "country_code": "NC",
+        "country_of_residence": "New Caledonia",
+        "nationality_and_citizenship": "New Caledonians",
+        "currency": "XPF",
+        "phone_country_code": "687"
+    },
+    {
+        "country_name": "New Zealand",
+        "country_code": "NZ",
+        "country_of_residence": "New Zealand",
+        "nationality_and_citizenship": "New Zealand",
+        "currency": "NZD",
+        "phone_country_code": "64"
+    },
+    {
+        "country_name": "Nicaragua",
+        "country_code": "NI",
+        "country_of_residence": "Nicaragua",
+        "nationality_and_citizenship": "Nicaraguan",
+        "currency": "NIO",
+        "phone_country_code": "505"
+    },
+    {
+        "country_name": "Niger",
+        "country_code": "NE",
+        "country_of_residence": "Niger",
+        "nationality_and_citizenship": "Nigerien",
+        "currency": "XOF",
+        "phone_country_code": "227"
+    },
+    {
+        "country_name": "Nigeria",
+        "country_code": "NG",
+        "country_of_residence": "Nigeria",
+        "nationality_and_citizenship": "Nigerian",
+        "currency": "NGN",
+        "phone_country_code": "234"
+    },
+    {
+        "country_name": "Niue",
+        "country_code": "NU",
+        "country_of_residence": "Niue",
+        "nationality_and_citizenship": "Niues",
+        "currency": "NZD",
+        "phone_country_code": "683"
+    },
+    {
+        "country_name": "Norfolk Island",
+        "country_code": "NF",
+        "country_of_residence": "Norfolk Island",
+        "nationality_and_citizenship": "Australian",
+        "currency": "AUD",
+        "phone_country_code": "672"
+    },
+    {
+        "country_name": "North Korea",
+        "country_code": "KP",
+        "country_of_residence": "North Korea",
+        "nationality_and_citizenship": "North Korean",
+        "currency": "KPW",
+        "phone_country_code": "850"
+    },
+    {
+        "country_name": "Northern Mariana Islands",
+        "country_code": "MP",
+        "country_of_residence": "Northern Mariana Islands",
+        "nationality_and_citizenship": "American",
+        "currency": "USD",
+        "phone_country_code": "1"
+    },
+    {
+        "country_name": "Norway",
+        "country_code": "NO",
+        "country_of_residence": "Norway",
+        "nationality_and_citizenship": "Norwegian",
+        "currency": "NOK",
+        "phone_country_code": "47"
+    },
+    {
+        "country_name": "Oman",
+        "country_code": "OM",
+        "country_of_residence": "Oman",
+        "nationality_and_citizenship": "Omani",
+        "currency": "OMR",
+        "phone_country_code": "968"
+    },
+    {
+        "country_name": "Pakistan",
+        "country_code": "PK",
+        "country_of_residence": "Pakistan",
+        "nationality_and_citizenship": "Pakistani",
+        "currency": "PKR",
+        "phone_country_code": "92"
+    },
+    {
+        "country_name": "Palau",
+        "country_code": "PW",
+        "country_of_residence": "Palau",
+        "nationality_and_citizenship": "Palau",
+        "currency": "USD",
+        "phone_country_code": "680"
+    },
+    {
+        "country_name": "Palestinian territories",
+        "country_code": "",
+        "country_of_residence": "",
+        "nationality_and_citizenship": "",
+        "currency": "",
+        "phone_country_code": "970"
+    },
+    {
+        "country_name": "Panama",
+        "country_code": "PA",
+        "country_of_residence": "Panama",
+        "nationality_and_citizenship": "Panamanian",
+        "currency": "PAB,USD",
+        "phone_country_code": "507"
+    },
+    {
+        "country_name": "Papua New Guinea",
+        "country_code": "PG",
+        "country_of_residence": "Papua New Guinea",
+        "nationality_and_citizenship": "Papua New Guinean or Guinean",
+        "currency": "PGK",
+        "phone_country_code": "675"
+    },
+    {
+        "country_name": "Paraguay",
+        "country_code": "PY",
+        "country_of_residence": "Paraguay",
+        "nationality_and_citizenship": "Paraguayan",
+        "currency": "PYG",
+        "phone_country_code": "595"
+    },
+    {
+        "country_name": "Peru",
+        "country_code": "PE",
+        "country_of_residence": "Peru",
+        "nationality_and_citizenship": "Peruvian",
+        "currency": "PEN",
+        "phone_country_code": "51"
+    },
+    {
+        "country_name": "Pitcairn Islands",
+        "country_code": "PN",
+        "country_of_residence": "Pitcairn Islands",
+        "nationality_and_citizenship": "Pitcairn Islander",
+        "currency": "NZD",
+        "phone_country_code": "64"
+    },
+    {
+        "country_name": "Poland",
+        "country_code": "PL",
+        "country_of_residence": "Poland",
+        "nationality_and_citizenship": "Polish",
+        "currency": "PLN",
+        "phone_country_code": "48"
+    },
+    {
+        "country_name": "Portugal",
+        "country_code": "PT",
+        "country_of_residence": "Portugal",
+        "nationality_and_citizenship": "Portuguese",
+        "currency": "EUR",
+        "phone_country_code": "351"
+    },
+    {
+        "country_name": "Puerto Rico",
+        "country_code": "PR",
+        "country_of_residence": "Puerto Rico",
+        "nationality_and_citizenship": "Puerto Rican",
+        "currency": "USD",
+        "phone_country_code": "1"
+    },
+    {
+        "country_name": "Qatar",
+        "country_code": "QA",
+        "country_of_residence": "Qatar",
+        "nationality_and_citizenship": "Qatari",
+        "currency": "QAR",
+        "phone_country_code": "974"
+    },
+    {
+        "country_name": "Republic of Macedonia",
+        "country_code": "MK",
+        "country_of_residence": "Republic of Macedonia",
+        "nationality_and_citizenship": "Macedonian",
+        "currency": "MKD",
+        "phone_country_code": "389"
+    },
+    {
+        "country_name": "Republic of the Congo",
+        "country_code": "CG",
+        "country_of_residence": "Republic of the Congo",
+        "nationality_and_citizenship": "Congolese (DRC)",
+        "currency": "XAF",
+        "phone_country_code": "242"
+    },
+    {
+        "country_name": "Romania",
+        "country_code": "RO",
+        "country_of_residence": "Romania",
+        "nationality_and_citizenship": "Romanian",
+        "currency": "RON",
+        "phone_country_code": "40"
+    },
+    {
+        "country_name": "Russian Federation",
+        "country_code": "RU",
+        "country_of_residence": "Russian Federation",
+        "nationality_and_citizenship": "Russian",
+        "currency": "RUB",
+        "phone_country_code": "7"
+    },
+    {
+        "country_name": "Rwanda",
+        "country_code": "RW",
+        "country_of_residence": "Rwanda",
+        "nationality_and_citizenship": "Rwandan",
+        "currency": "RWF",
+        "phone_country_code": "250"
+    },
+    {
+        "country_name": "Réunion",
+        "country_code": "RE",
+        "country_of_residence": "Réunion",
+        "nationality_and_citizenship": "French",
+        "currency": "EUR",
+        "phone_country_code": "262"
+    },
+    {
+        "country_name": "Saint Barthélemy",
+        "country_code": "BL",
+        "country_of_residence": "Saint Barthélemy",
+        "nationality_and_citizenship": "Saint Barthélemy",
+        "currency": "EUR",
+        "phone_country_code": "590"
+    },
+    {
+        "country_name": "Saint Martin (France)",
+        "country_code": "MF",
+        "country_of_residence": "Saint Martin (France)",
+        "nationality_and_citizenship": "French",
+        "currency": "EUR",
+        "phone_country_code": "590"
+    },
+    {
+        "country_name": "Saint-Pierre and Miquelon",
+        "country_code": "PM",
+        "country_of_residence": "Saint-Pierre and Miquelon",
+        "nationality_and_citizenship": "Saint-Pierre and Miquelon",
+        "currency": "EUR",
+        "phone_country_code": "508"
+    },
+    {
+        "country_name": "Samoa",
+        "country_code": "WS",
+        "country_of_residence": "Samoa",
+        "nationality_and_citizenship": "Samoans",
+        "currency": "WST",
+        "phone_country_code": "685"
+    },
+    {
+        "country_name": "San Marino",
+        "country_code": "SM",
+        "country_of_residence": "San Marino",
+        "nationality_and_citizenship": "Sanmarinese",
+        "currency": "EUR",
+        "phone_country_code": "378"
+    },
+    {
+        "country_name": "Sao Tome & Principe",
+        "country_code": "ST",
+        "country_of_residence": "Sao Tome & Principe",
+        "nationality_and_citizenship": "Sao Tome and Principe",
+        "currency": "STD",
+        "phone_country_code": "239"
+    },
+    {
+        "country_name": "Saudi Arabia",
+        "country_code": "SA",
+        "country_of_residence": "Saudi Arabia",
+        "nationality_and_citizenship": "Saudi Arabian or Saudi",
+        "currency": "SAR",
+        "phone_country_code": "966"
+    },
+    {
+        "country_name": "Senegal",
+        "country_code": "SN",
+        "country_of_residence": "Senegal",
+        "nationality_and_citizenship": "Senegalese",
+        "currency": "XOF",
+        "phone_country_code": "221"
+    },
+    {
+        "country_name": "Serbia",
+        "country_code": "RS",
+        "country_of_residence": "Serbia",
+        "nationality_and_citizenship": "Serb or Serbian",
+        "currency": "RSD",
+        "phone_country_code": "381"
+    },
+    {
+        "country_name": "Seychelles",
+        "country_code": "SC",
+        "country_of_residence": "Seychelles",
+        "nationality_and_citizenship": "Seychellese",
+        "currency": "SCR",
+        "phone_country_code": "248"
+    },
+    {
+        "country_name": "Sierra Leone",
+        "country_code": "SL",
+        "country_of_residence": "Sierra Leone",
+        "nationality_and_citizenship": "Sierra Leonian",
+        "currency": "SLL",
+        "phone_country_code": "232"
+    },
+    {
+        "country_name": "Singapore",
+        "country_code": "SG",
+        "country_of_residence": "Singapore",
+        "nationality_and_citizenship": "Singaporean",
+        "currency": "SGD",
+        "phone_country_code": "65"
+    },
+    {
+        "country_name": "Slovakia",
+        "country_code": "SK",
+        "country_of_residence": "Slovakia",
+        "nationality_and_citizenship": "Slovak",
+        "currency": "EUR",
+        "phone_country_code": "421"
+    },
+    {
+        "country_name": "Slovenia",
+        "country_code": "SI",
+        "country_of_residence": "Slovenia",
+        "nationality_and_citizenship": "Slovene or Slovenian",
+        "currency": "EUR",
+        "phone_country_code": "386"
+    },
+    {
+        "country_name": "Solomon Islands",
+        "country_code": "SB",
+        "country_of_residence": "Solomon Islands",
+        "nationality_and_citizenship": "Solomon Islander",
+        "currency": "SBD",
+        "phone_country_code": "677"
+    },
+    {
+        "country_name": "Somalia",
+        "country_code": "SO",
+        "country_of_residence": "Somalia",
+        "nationality_and_citizenship": "Somali",
+        "currency": "SOS",
+        "phone_country_code": "252"
+    },
+    {
+        "country_name": "South Africa",
+        "country_code": "ZA",
+        "country_of_residence": "South Africa",
+        "nationality_and_citizenship": "South African",
+        "currency": "ZAR",
+        "phone_country_code": "27"
+    },
+    {
+        "country_name": "South Georgia and the South Sandwich Islands",
+        "country_code": "GS",
+        "country_of_residence": "South Georgia and the South Sandwich Islands",
+        "nationality_and_citizenship": "British",
+        "currency": "GBP",
+        "phone_country_code": "500"
+    },
+    {
+        "country_name": "South Korea",
+        "country_code": "KR",
+        "country_of_residence": "South Korea",
+        "nationality_and_citizenship": "South Korean",
+        "currency": "KRW",
+        "phone_country_code": "82"
+    },
+    {
+        "country_name": "South Sudan",
+        "country_code": "SS",
+        "country_of_residence": "South Sudan",
+        "nationality_and_citizenship": "South Sudanese",
+        "currency": "SSP",
+        "phone_country_code": "211"
+    },
+    {
+        "country_name": "Spain",
+        "country_code": "ES",
+        "country_of_residence": "Spain",
+        "nationality_and_citizenship": "Spanish",
+        "currency": "EUR",
+        "phone_country_code": "34"
+    },
+    {
+        "country_name": "Sri Lanka",
+        "country_code": "LK",
+        "country_of_residence": "Sri Lanka",
+        "nationality_and_citizenship": "Sri Lankan",
+        "currency": "LKR",
+        "phone_country_code": "94"
+    },
+    {
+        "country_name": "St. Helena & Dependencies",
+        "country_code": "SH",
+        "country_of_residence": "St. Helena & Dependencies",
+        "nationality_and_citizenship": "British",
+        "currency": "SHP",
+        "phone_country_code": "290"
+    },
+    {
+        "country_name": "St. Kitts & Nevis",
+        "country_code": "KN",
+        "country_of_residence": "St. Kitts & Nevis",
+        "nationality_and_citizenship": "St. Kitts & Nevis",
+        "currency": "XCD",
+        "phone_country_code": "1"
+    },
+    {
+        "country_name": "St. Lucia",
+        "country_code": "LC",
+        "country_of_residence": "St. Lucia",
+        "nationality_and_citizenship": "Saint Lucia",
+        "currency": "XCD",
+        "phone_country_code": "1"
+    },
+    {
+        "country_name": "St. Vincent & the Grenadines",
+        "country_code": "VC",
+        "country_of_residence": "St. Vincent & the Grenadines",
+        "nationality_and_citizenship": "Saint Vincent and the Grenadines",
+        "currency": "XCD",
+        "phone_country_code": "1"
+    },
+    {
+        "country_name": "Sudan",
+        "country_code": "SD",
+        "country_of_residence": "Sudan",
+        "nationality_and_citizenship": "Sudanese",
+        "currency": "SDG",
+        "phone_country_code": "249"
+    },
+    {
+        "country_name": "Suriname",
+        "country_code": "SR",
+        "country_of_residence": "Suriname",
+        "nationality_and_citizenship": "Surinamese",
+        "currency": "SRD",
+        "phone_country_code": "597"
+    },
+    {
+        "country_name": "Swaziland",
+        "country_code": "SZ",
+        "country_of_residence": "Swaziland",
+        "nationality_and_citizenship": "Swazi",
+        "currency": "SZL",
+        "phone_country_code": "268"
+    },
+    {
+        "country_name": "Sweden",
+        "country_code": "SE",
+        "country_of_residence": "Sweden",
+        "nationality_and_citizenship": "Swedish",
+        "currency": "SEK",
+        "phone_country_code": "46"
+    },
+    {
+        "country_name": "Switzerland",
+        "country_code": "CH",
+        "country_of_residence": "Switzerland",
+        "nationality_and_citizenship": "Swiss",
+        "currency": "CHF",
+        "phone_country_code": "41"
+    },
+    {
+        "country_name": "Syria",
+        "country_code": "SY",
+        "country_of_residence": "Syria",
+        "nationality_and_citizenship": "Syrian",
+        "currency": "SYP",
+        "phone_country_code": "963"
+    },
+    {
+        "country_name": "Taiwan",
+        "country_code": "TW",
+        "country_of_residence": "Taiwan",
+        "nationality_and_citizenship": "Taiwanese",
+        "currency": "NTD",
+        "phone_country_code": "886"
+    },
+    {
+        "country_name": "Tajikistan",
+        "country_code": "TJ",
+        "country_of_residence": "Tajikistan",
+        "nationality_and_citizenship": "Tajik or Tadjik",
+        "currency": "TJS",
+        "phone_country_code": "992"
+    },
+    {
+        "country_name": "Tanzania",
+        "country_code": "TZ",
+        "country_of_residence": "Tanzania",
+        "nationality_and_citizenship": "Tanzanian",
+        "currency": "TZS",
+        "phone_country_code": "255"
+    },
+    {
+        "country_name": "Thailand",
+        "country_code": "TH",
+        "country_of_residence": "Thailand",
+        "nationality_and_citizenship": "Thai",
+        "currency": "THB",
+        "phone_country_code": "66"
+    },
+    {
+        "country_name": "The Bahamas",
+        "country_code": "BS",
+        "country_of_residence": "The Bahamas",
+        "nationality_and_citizenship": "Bahamian",
+        "currency": "BSD",
+        "phone_country_code": "1"
+    },
+    {
+        "country_name": "The Comoros",
+        "country_code": "KM",
+        "country_of_residence": "The Comoros",
+        "nationality_and_citizenship": "The Comoros",
+        "currency": "KMF",
+        "phone_country_code": "269"
+    },
+    {
+        "country_name": "The Philippines",
+        "country_code": "PH",
+        "country_of_residence": "The Philippines",
+        "nationality_and_citizenship": "Filipino",
+        "currency": "PHP",
+        "phone_country_code": "63"
+    },
+    {
+        "country_name": "Timor-Leste",
+        "country_code": "TL",
+        "country_of_residence": "Timor-Leste",
+        "nationality_and_citizenship": "East Timorese",
+        "currency": "USD",
+        "phone_country_code": "670"
+    },
+    {
+        "country_name": "Togo",
+        "country_code": "TG",
+        "country_of_residence": "Togo",
+        "nationality_and_citizenship": "Togolese",
+        "currency": "XOF",
+        "phone_country_code": "228"
+    },
+    {
+        "country_name": "Tokelau",
+        "country_code": "TK",
+        "country_of_residence": "Tokelau",
+        "nationality_and_citizenship": "Tokelauan",
+        "currency": "NZD",
+        "phone_country_code": "690"
+    },
+    {
+        "country_name": "Tonga",
+        "country_code": "TO",
+        "country_of_residence": "Tonga",
+        "nationality_and_citizenship": "Tongan",
+        "currency": "TOP",
+        "phone_country_code": "676"
+    },
+    {
+        "country_name": "Trinidad & Tobago",
+        "country_code": "TT",
+        "country_of_residence": "Trinidad & Tobago",
+        "nationality_and_citizenship": "Trinidadian\nTobagan/Tobagonian",
+        "currency": "TTD",
+        "phone_country_code": "1"
+    },
+    {
+        "country_name": "Tunisia",
+        "country_code": "TN",
+        "country_of_residence": "Tunisia",
+        "nationality_and_citizenship": "Tunisian",
+        "currency": "TND",
+        "phone_country_code": "216"
+    },
+    {
+        "country_name": "Turkey",
+        "country_code": "TR",
+        "country_of_residence": "Turkey",
+        "nationality_and_citizenship": "Turkish",
+        "currency": "TRY",
+        "phone_country_code": "90"
+    },
+    {
+        "country_name": "Turkmenistan",
+        "country_code": "TM",
+        "country_of_residence": "Turkmenistan",
+        "nationality_and_citizenship": "Turkmen or Turkoman",
+        "currency": "TMT",
+        "phone_country_code": "993"
+    },
+    {
+        "country_name": "Turks & Caicos Islands",
+        "country_code": "TC",
+        "country_of_residence": "Turks & Caicos Islands",
+        "nationality_and_citizenship": "Turks & Caicos Islander",
+        "currency": "USD",
+        "phone_country_code": "1"
+    },
+    {
+        "country_name": "Tuvalu",
+        "country_code": "TV",
+        "country_of_residence": "Tuvalu",
+        "nationality_and_citizenship": "Tuvaluan",
+        "currency": "AUD",
+        "phone_country_code": "688"
+    },
+    {
+        "country_name": "Uganda",
+        "country_code": "UG",
+        "country_of_residence": "Uganda",
+        "nationality_and_citizenship": "Ugandan",
+        "currency": "UGX",
+        "phone_country_code": "256"
+    },
+    {
+        "country_name": "Ukraine",
+        "country_code": "UA",
+        "country_of_residence": "Ukraine",
+        "nationality_and_citizenship": "Ukrainian",
+        "currency": "UAH",
+        "phone_country_code": "380"
+    },
+    {
+        "country_name": "United Arab Emirates",
+        "country_code": "AE",
+        "country_of_residence": "United Arab Emirates",
+        "nationality_and_citizenship": "Emirati",
+        "currency": "AED",
+        "phone_country_code": "971"
+    },
+    {
+        "country_name": "United Kingdom",
+        "country_code": "GB",
+        "country_of_residence": "United Kingdom",
+        "nationality_and_citizenship": "British",
+        "currency": "GBP",
+        "phone_country_code": "44"
+    },
+    {
+        "country_name": "United States Minor Outlying Islands",
+        "country_code": "UM",
+        "country_of_residence": "United States Minor Outlying Islands",
+        "nationality_and_citizenship": "American",
+        "currency": "USD",
+        "phone_country_code": "246"
+    },
+    {
+        "country_name": "United States Virgin Islands",
+        "country_code": "VI",
+        "country_of_residence": "United States Virgin Islands",
+        "nationality_and_citizenship": "American",
+        "currency": "USD",
+        "phone_country_code": "1"
+    },
+    {
+        "country_name": "United States of America",
+        "country_code": "US",
+        "country_of_residence": "United States of America",
+        "nationality_and_citizenship": "American",
+        "currency": "USD",
+        "phone_country_code": "1"
+    },
+    {
+        "country_name": "Uruguay",
+        "country_code": "UY",
+        "country_of_residence": "Uruguay",
+        "nationality_and_citizenship": "Uruguayan",
+        "currency": "UYU",
+        "phone_country_code": "598"
+    },
+    {
+        "country_name": "Uzbekistan",
+        "country_code": "UZ",
+        "country_of_residence": "Uzbekistan",
+        "nationality_and_citizenship": "Uzbek",
+        "currency": "UZS",
+        "phone_country_code": "998"
+    },
+    {
+        "country_name": "Vanuatu",
+        "country_code": "VU",
+        "country_of_residence": "Vanuatu",
+        "nationality_and_citizenship": "Vanuatuan",
+        "currency": "VUV",
+        "phone_country_code": "678"
+    },
+    {
+        "country_name": "Vatican City",
+        "country_code": "VA",
+        "country_of_residence": "Vatican City",
+        "nationality_and_citizenship": "Vatican",
+        "currency": "EUR",
+        "phone_country_code": "379"
+    },
+    {
+        "country_name": "Venezuela",
+        "country_code": "VE",
+        "country_of_residence": "Venezuela",
+        "nationality_and_citizenship": "Venezuelan",
+        "currency": "VEF",
+        "phone_country_code": "58"
+    },
+    {
+        "country_name": "Vietnam",
+        "country_code": "VN",
+        "country_of_residence": "Vietnam",
+        "nationality_and_citizenship": "Vietnamese",
+        "currency": "VND",
+        "phone_country_code": "84"
+    },
+    {
+        "country_name": "Wallis and Futuna",
+        "country_code": "WF",
+        "country_of_residence": "Wallis and Futuna",
+        "nationality_and_citizenship": "Wallis and Futuna",
+        "currency": "XPF",
+        "phone_country_code": "681"
+    },
+    {
+        "country_name": "Western Sahara",
+        "country_code": "EH",
+        "country_of_residence": "Western Sahara",
+        "nationality_and_citizenship": "Western Saharan",
+        "currency": "MAD",
+        "phone_country_code": "212"
+    },
+    {
+        "country_name": "Yemen",
+        "country_code": "YE",
+        "country_of_residence": "Yemen",
+        "nationality_and_citizenship": "Yemeni",
+        "currency": "YER",
+        "phone_country_code": "967"
+    },
+    {
+        "country_name": "Zambia",
+        "country_code": "ZM",
+        "country_of_residence": "Zambia",
+        "nationality_and_citizenship": "Zambian",
+        "currency": "ZMW",
+        "phone_country_code": "260"
+    },
+    {
+        "country_name": "Zimbabwe",
+        "country_code": "ZW",
+        "country_of_residence": "Zimbabwe",
+        "nationality_and_citizenship": "Zimbabwean",
+        "currency": "ZWL",
+        "phone_country_code": "263"
+    },
+    {
+        "country_name": "Åland Islands",
+        "country_code": "AX",
+        "country_of_residence": "Åland Islands",
+        "nationality_and_citizenship": "Åland Islander",
+        "currency": "EUR",
+        "phone_country_code": "358"
+    }
+]

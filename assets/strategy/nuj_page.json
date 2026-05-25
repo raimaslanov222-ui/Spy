@@ -1,0 +1,1 @@
+{"config":[{"id":"page_switch_animation","filters":[{"name":"nuj_revamp_row","operator":"==","value":"1","result":"revamp"},{"name":"nuj_revamp_kr","operator":"==","value":"1","result":"revamp"},{"name":"nuj_revamp_us_eu_ab","operator":"==","value":"1","result":"revamp_skip"}],"fallback_result":"online"}]}
